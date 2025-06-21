@@ -5,8 +5,8 @@ function faceGhost() {
       if (parent) {
         console.log('Ghost sighting:', elem);
         console.log('Ghost container:', parent);
-        parent.style.border = '3px solid red';
-        parent.innerHTML = `<p style="text-align: center;">Ghosted</p>`;
+        parent.style.border = '1px solid #cc9999';
+        parent.innerHTML = `<div style="text-align: center; color: #cc9999;">Ghosted</div>`;
       }
     }
   });
