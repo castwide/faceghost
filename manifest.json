@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Faceghost",
+  "version": "1.0",
+
+  "description": "Removes unwanted posts from your timeline",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["faceghost.js"]
+    }
+  ]
+}
