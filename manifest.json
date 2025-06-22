@@ -3,7 +3,12 @@
   "name": "Faceghost",
   "version": "1.0",
 
-  "description": "Removes unwanted posts from your timeline",
+  "description": "Remove unsolicited posts from your Facebook timeline",
+
+  "icons": {
+    "32": "icon-32.png",
+    "64": "icon-64.png"
+  },
 
   "content_scripts": [
     {
