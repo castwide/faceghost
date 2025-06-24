@@ -15,5 +15,11 @@
       "matches": ["*://*.facebook.com/*"],
       "js": ["faceghost.js"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "faceghost@castwide.com"
+    }
+  }
 }
