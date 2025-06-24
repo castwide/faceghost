@@ -6,8 +6,7 @@ Screenshot:
 
 ![Screenshot](fg-screenshot.png)
 
-## Installation
+## TODO
 
-Chrome: (link)
-
-Firefox: (link)
+* Publish for Mozilla Firefox (pending)
+* Publish for Google Chrome (pending)
