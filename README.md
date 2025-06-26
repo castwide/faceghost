@@ -8,6 +8,8 @@ Screenshot:
 
 ## Manual Installation
 
+To install the extension, clone the faceghost repo and follow the instructions for your browser.
+
 ### Firefox
 * Enter `about:debugging` in the address bar
 * Click `This Firefox`
