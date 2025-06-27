@@ -6,9 +6,14 @@ Screenshot:
 
 ![Screenshot](fg-screenshot.png)
 
+
+## Installation
+
+**Firefox:** https://addons.mozilla.org/en-US/firefox/addon/faceghost/
+
 ## Manual Installation
 
-To install the extension, clone the faceghost repo and follow the instructions for your browser.
+To install the extension manually, clone the faceghost repo and follow the instructions for your browser.
 
 ### Firefox
 * Enter `about:debugging` in the address bar
@@ -24,5 +29,4 @@ To install the extension, clone the faceghost repo and follow the instructions f
 
 ## TODO
 
-* Publish for Mozilla Firefox (pending)
 * Publish for Google Chrome (pending)
