@@ -11,6 +11,8 @@ Screenshot:
 
 **Firefox:** https://addons.mozilla.org/en-US/firefox/addon/faceghost/
 
+**Chrome:** https://chromewebstore.google.com/detail/faceghost/onipcbgdlogimebmodnbmgifkckhhado
+
 ## Manual Installation
 
 To install the extension manually, clone the faceghost repo and follow the instructions for your browser.
