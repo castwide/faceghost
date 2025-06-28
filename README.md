@@ -28,7 +28,3 @@ To install the extension manually, clone the faceghost repo and follow the instr
 * In the menu, go to `Extensions` -> `Manage Extensions`
 * Click `Load unpacked`
 * Select your repo clone's folder
-
-## TODO
-
-* Publish for Google Chrome (pending)
