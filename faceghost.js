@@ -26,21 +26,25 @@ function ghostableReels() {
 }
 
 function pushGhostable(elem, list) {
-    const header = elem.innerText.replace(/\s+/g, ' ').trim();
-    console.log('Faceghost sighting:', `"${header}"`, elem);
-    const parent = elem.closest('[data-virtualized=false]');
-    if (parent) {
-      console.log('Faceghost container:', parent);
-      list.push(elem.closest('[data-virtualized=false]'));
-    } else {
-      console.error('Faceghost container not found');
-    }
+  const header = elem.innerText.replace(/\s+/g, ' ').trim();
+  console.log('Faceghost sighting:', `"${header}"`, elem);
+  const parent = elem.closest('[data-virtualized=false]');
+  if (parent) {
+    console.log('Faceghost container:', parent);
+    list.push(elem.closest('[data-virtualized=false]'));
+  } else {
+    console.error('Faceghost container not found');
+  }
 }
 
-faceGhost();
+function isGhostablePage() {
+  return !document.URL.includes('facebook.com/search/');
+}
 
 const observer = new MutationObserver(() => {
-  faceGhost();
+  if (isGhostablePage()) {
+    faceGhost();
+  }
 });
 
 observer.observe(document.body, {
