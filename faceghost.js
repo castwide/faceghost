@@ -49,11 +49,13 @@ function isGhostablePage() {
   return !document.URL.includes('facebook.com/search/');
 }
 
-const observer = new MutationObserver(faceGhost)
+const observer = new MutationObserver(faceGhost);
 
-observer.observe(document.body, {
-  childList: true,
-  subtree: true
+document.addEventListener('DOMContentLoaded', () => {
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
 });
 
 console.log('Loaded Faceghost');

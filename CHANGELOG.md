@@ -1,3 +1,6 @@
+## 1.3 - November 1, 2026
+- Add MutationObserver after document is loaded
+
 ## 1.2 - October 22, 2026
 - Query new nodes instead of body
 
